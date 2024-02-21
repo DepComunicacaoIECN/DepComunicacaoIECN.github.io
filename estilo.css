@@ -140,9 +140,35 @@ body {
 }
 
 @media screen and (max-width:576px) {
+    .container-fotos {
+        width: 90px;
+        padding: 15.5em;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        display: block;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    body {
+        width: 50%;
+        padding: none;
+        line-height: 50px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        line-height: 10px;
+        display: block;
+
+
+    }
+}
+
+@media screen and (max-width:576px) {
 
     .container-navegacao {
-        width: 130%;
+        width: 195%;
         padding: none;
         margin: none;
         line-height: 50px;
@@ -158,12 +184,12 @@ body {
     .icone3,
     .icone4 {
 
+        width: 10px;
+        padding: none;
+        margin: none;
+        line-height: 1px;
         text-align: center;
-        margin: center;
-        padding: 10px;
-        padding-right: 35px;
-        width: 0px;
-        line-height: 10px;
+        padding-right: none;
 
     }
 
@@ -173,9 +199,9 @@ body {
 @media screen and (max-width:576px) {
 
     .container-pe {
-        width: 80%;
+        width: 130%;
         text-align: center;
-        padding: 60px;
+        padding: 100px;
         margin: 0px 0px 0px 0px;
         line-height: 20px;
         display: block;
