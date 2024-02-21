@@ -139,9 +139,9 @@ body {
     transition: color .5s;
 }
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:412px) {
     .container-fotos {
-        width: 220%;
+        width: 312%;
         padding: 4em;
         text-align: center;
         margin: 0px 0px 0px 0px;
@@ -152,10 +152,10 @@ body {
     }
 }
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     body {
-        width: 50%;
+        width: 33%;
         padding: none;
         line-height: 50px;
         text-align: center;
@@ -167,19 +167,20 @@ body {
     }
 }
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .container-navegacao {
-        width: 275%;
-        padding: none;
-        margin: none;
-        line-height: 50px;
+        width: 360%;
+        padding: 2em;
+        line-height: 40px;
+        margin: 0px 0px;
+        font-size: 1em;
 
 
     }
 }
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .icone,
     .icone2,
@@ -198,10 +199,10 @@ body {
 }
 
 
-@media screen and (max-width:412px) {
+@media screen and (min-width:412px) {
 
     .container-pe {
-        width: 137%;
+        width: 185%;
         text-align: center;
         padding: 150px;
         margin: 0px 0px 0px 0px;
