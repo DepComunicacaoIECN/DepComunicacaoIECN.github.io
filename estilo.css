@@ -165,15 +165,12 @@ body {
 @media screen and (max-width:412px) {
 
     .container-navegacao {
-        width: 500%;
+        width: 610%;
         padding: auto;
         line-height: 40px;
-
-
-
         justify-content: flex-start;
         margin: 0px 0px 0px 0px;
-        font-size: 1em;
+        font-size: 0.9em;
 
 
 
