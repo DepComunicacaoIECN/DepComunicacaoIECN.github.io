@@ -156,12 +156,17 @@ body {
 
     body {
         width: 33%;
-        padding: none;
+        padding: auto;
         line-height: 50px;
-        text-align: center;
+        text-align: left;
         margin: 0px 0px 0px 0px;
         line-height: 10px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+
 
 
     }
@@ -170,12 +175,14 @@ body {
 @media screen and (min-width:412px) {
 
     .container-navegacao {
-        width: 360%;
-        padding: 2em;
+        width: 395%;
+        padding: 0.5em;
         line-height: 40px;
         margin: 0px 0px;
         font-size: 1em;
-
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
 
     }
 }
@@ -188,11 +195,14 @@ body {
     .icone4 {
 
         width: 0%;
-        padding: 1em;
+        padding: 0.5em;
         margin: 50px 70px 0px 0px;
         line-height: 1px;
         text-align: center;
         padding-right: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
 
     }
 
@@ -207,7 +217,9 @@ body {
         padding: 150px;
         margin: 0px 0px 0px 0px;
         line-height: 20px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }
