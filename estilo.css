@@ -139,74 +139,37 @@ body {
     transition: color .5s;
 }
 
-@media screen and (max-width:412px) {
-    .container-fotos {
+/*-------------*/
 
-        padding: 10em;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        display: block;
-        line-height: 10px;
-        padding-right: auto;
-
-    }
-}
-
-@media screen and (max-width:412px) {
-
+@media screen {
     body {
-        width: 25.5%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+
     }
 }
 
-@media screen and (max-width:412px) {
-
+@media screen {
     .container-navegacao {
-        width: 610%;
-        padding: auto;
-        line-height: 40px;
-        justify-content: flex-start;
-        margin: 0px 0px 0px 0px;
-        font-size: 0.9em;
-
-
-
+        width: 110%;
+        font-size: 100%;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-}
 
-@media screen and (max-width:412px) {
-
-    .icone,
-    .icone2,
-    .icone3,
-    .icone4 {
-
-        width: 0%;
-        padding: 0px;
-        margin: 72px 50px 0px 0px;
-        line-height: 1px;
-        text-align: center;
-        padding-right: auto;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-
-    }
 
 }
 
+}
 
-@media screen and (max-width:412px) {
-
-    .container-pe {
-        object-fit: cover;
-        text-align: center;
-        padding: 0px;
-        line-height: 16px;
-        display: flex;
+@media screen {
+    .container-fotos {
+        width: 94%;
+        font-size: 100%;
+        display: block;
         flex-direction: column;
         flex-wrap: wrap;
     }
